@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/letv/le_x2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/letv/le_x2/proprietary/etc/battd_psy.conf:system/etc/battd_psy.conf \
-    vendor/letv/le_x2/proprietary/etc/audio_platform_info_i2s.xml:system/etc/audio_platform_info_i2s.xml \
     vendor/letv/le_x2/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
     vendor/letv/le_x2/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
     vendor/letv/le_x2/proprietary/etc/qvop/poc_64_hmm.gmm:system/etc/qvop/poc_64_hmm.gmm \
@@ -235,11 +234,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
     vendor/letv/le_x2/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/letv/le_x2/proprietary/etc/batt_info_show_conf.xml:system/etc/batt_info_show_conf.xml \
-    vendor/letv/le_x2/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
-    vendor/letv/le_x2/proprietary/lib64/hw/hwcomposer.msm8996.so:system/lib64/hw/hwcomposer.msm8996.so \
     vendor/letv/le_x2/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
-    vendor/letv/le_x2/proprietary/lib64/libsdmcore.so:system/lib64/libsdmcore.so \
-    vendor/letv/le_x2/proprietary/lib64/libsdmutils.so:system/lib64/libsdmutils.so \
     vendor/letv/le_x2/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
     vendor/letv/le_x2/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/letv/le_x2/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
@@ -277,7 +272,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
     vendor/letv/le_x2/proprietary/vendor/etc/scve/facereco/gModel.dat:system/vendor/etc/scve/facereco/gModel.dat \
     vendor/letv/le_x2/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/letv/le_x2/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/letv/le_x2/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
     vendor/letv/le_x2/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
     vendor/letv/le_x2/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
@@ -337,9 +331,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/letv/le_x2/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
     vendor/letv/le_x2/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
-    vendor/letv/le_x2/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/letv/le_x2/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
-    vendor/letv/le_x2/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/letv/le_x2/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/letv/le_x2/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/letv/le_x2/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
@@ -1050,7 +1041,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/letv/le_x2/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
     vendor/letv/le_x2/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
-    vendor/letv/le_x2/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/letv/le_x2/proprietary/vendor/lib/libchromatix_ov8858_hfr_120.so:system/vendor/lib/libchromatix_ov8858_hfr_120.so \
     vendor/letv/le_x2/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/letv/le_x2/proprietary/vendor/lib/libchromatix_imx214_default_preview_lc898122.so:system/vendor/lib/libchromatix_imx214_default_preview_lc898122.so \
@@ -1407,13 +1397,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/letv/le_x2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/letv/le_x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/letv/le_x2/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
-    vendor/letv/le_x2/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/letv/le_x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/letv/le_x2/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
     vendor/letv/le_x2/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/letv/le_x2/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/letv/le_x2/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/letv/le_x2/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/letv/le_x2/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/letv/le_x2/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
@@ -1430,26 +1417,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/letv/le_x2/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
     vendor/letv/le_x2/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
     vendor/letv/le_x2/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
-    vendor/letv/le_x2/proprietary/lib/libbvfixed.so:system/lib/libbvfixed.so \
-    vendor/letv/le_x2/proprietary/lib/libyzs_usc.so:system/lib/libyzs_usc.so \
-    vendor/letv/le_x2/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/gxhci-hcd.ko:system/lib/modules/gxhci-hcd.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/ufsd.ko:system/lib/modules/ufsd.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/ghci-hcd.ko:system/lib/modules/ghci-hcd.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/jnl.ko:system/lib/modules/jnl.ko \
-    vendor/letv/le_x2/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
     vendor/letv/le_x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/letv/le_x2/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
     vendor/letv/le_x2/proprietary/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
