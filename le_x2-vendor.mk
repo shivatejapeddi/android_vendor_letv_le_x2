@@ -196,6 +196,8 @@ PRODUCT_COPY_FILES += \
     vendor/letv/le_x2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/letv/le_x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/letv/le_x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/letv/le_x2/proprietary/lib/libbvfixed.so:system/lib/libbvfixed.so \
+    vendor/letv/le_x2/proprietary/lib/libyzs_usc.so:system/lib/libyzs_usc.so \
     vendor/letv/le_x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/letv/le_x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
     vendor/letv/le_x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
@@ -1055,7 +1057,9 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    UEIQuicksetSDKLeTV \
+    LetvRemoteControl
 
 PRODUCT_COPY_FILES += \
     vendor/letv/le_x2/proprietary/bin/iop:system/bin/iop \
